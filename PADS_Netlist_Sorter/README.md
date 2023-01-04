@@ -10,3 +10,6 @@ By using the excellent diff tool [Eskil](http://eskil.tcl.tk/) , it is also poss
 Usage: 
 
 ``python PADS_Netlist_Sorter.py InputNetlist.net`` will process the file InputNetlist.net and create ``sorted_InputNetlist.net`` in the same folder.
+
+Notes:
+The tool assumes that the command line tool 'svnversion' is available. We typically install it as part of TortoiseSVN. See https://stackoverflow.com/questions/1625406/how-to-use-tortoisesvn-via-command-line for some additional information.
